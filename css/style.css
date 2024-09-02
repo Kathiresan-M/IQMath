@@ -868,11 +868,12 @@ a:focus {
 }
 
 .info_section form input {
-  border: none;
-  border-bottom: 1px solid #ffffff;
+  border: 0.5px solid #ffffff;
+  border-radius: 3px;
   background-color: transparent;
   width: 100%;
   height: 45px;
+  padding: 5px;
   color: #ffffff;
   outline: none;
 }
@@ -894,7 +895,7 @@ a:focus {
 }
 
 .info_section form button {
-  width: 100%;
+  width: 30%;
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
@@ -935,8 +936,11 @@ a:focus {
   justify-content: center;
 }
 .contact-us{
-  width: 800px;
-  background-color: red;
+  background: rgba(255, 255, 255, 0.1);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  padding: 20px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .cr-bk{
   color: #000000;
@@ -944,4 +948,26 @@ a:focus {
 .cr-bk:hover{
   color: blue;
   box-shadow: rgba(16, 31, 240, 0.35) 0px 5px 15px;
+}
+.offers{
+  background-color: #00bbf0;
+  padding: 10px;
+}
+.inp1{
+  display: flex;
+  gap: 10px;
+}
+.txt-area{
+  outline: none;
+  border: none;
+  border: 0.5px solid #ffffff;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  height: 150px;
+  background: none;
+}
+.wh-bdr{
+  border-bottom: 1px solid white;
 }

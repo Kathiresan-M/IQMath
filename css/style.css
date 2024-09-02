@@ -338,7 +338,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  width: 100%;
+  width: 90%;
   -webkit-animation: upDown 5s infinite;
           animation: upDown 5s infinite;
 }
@@ -498,7 +498,7 @@ a:focus {
 }
 
 .about_section .img-box img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .about_section .detail-box h3 {
@@ -930,4 +930,7 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 .display-none{
   display: none !important;
+}
+.justify-content{
+  justify-content: center;
 }

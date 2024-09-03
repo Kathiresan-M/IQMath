@@ -895,7 +895,7 @@ a:focus {
 }
 
 .info_section form button {
-  width: 30%;
+  width: 100%;
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
@@ -972,7 +972,8 @@ a:focus {
   border-bottom: 1px solid white;
 }
 .process_section{
-  height: 300px;
+  height: fit-content;
+  border-bottom: 4px solid #0f054c;
 }
 
 .progress-bar {
@@ -1015,4 +1016,16 @@ a:focus {
 .p-details span{
   font-weight: bold;
   font-size: 40px;
+}
+
+@media only screen and (max-width:768px) {
+  .process_section{
+    padding: 0 !important;
+  }
+  .ps-bar{
+    padding: 0 !important;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
 }
